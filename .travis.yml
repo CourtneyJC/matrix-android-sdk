@@ -37,6 +37,11 @@ cache:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
     - $HOME/.android/build-cache
+    
+    # safelist
+branches:
+  only:
+  - refactorSendEvent
 
 # Just build the project for now
 script:
